@@ -1,0 +1,13 @@
+Rule rule_name
+{
+meta:
+	Creator = "Sita Ram"
+events:
+	$e.metadata.event_type = "USER_LOGIN"
+condition: 
+	$e
+}
+
+
+
+
